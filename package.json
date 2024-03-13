@@ -1,14 +1,14 @@
 {
-    "name": "portfolio",
-    "version": "1.0.0",
-    "private": true,
     "engines": {
         "node": "16.x"
     },
+    "name": "portfolio",
+    "version": "1.0.0",
+    "private": true,
     "scripts": {
         "dev": "node --openssl-legacy-provider ./node_modules/nuxt/bin/nuxt.js",
-        "build": "nuxt build",
-        "start": "nuxt start",
+        "build": "node --openssl-legacy-provider ./node_modules/nuxt/bin/nuxt.js",
+        "start": "node --openssl-legacy-provider ./node_modules/nuxt/bin/nuxt.js",
         "generate": "nuxt generate",
         "lint:js": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
         "lint:prettier": "prettier --check .",
