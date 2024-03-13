@@ -4,8 +4,8 @@
     "private": true,
     "scripts": {
         "dev": "node --openssl-legacy-provider ./node_modules/nuxt/bin/nuxt.js",
-        "build": "node --openssl-legacy-provider ./node_modules/nuxt/bin/nuxt.js",
-        "start": "node --openssl-legacy-provider ./node_modules/nuxt/bin/nuxt.js",
+        "build": "node --openssl-legacy-provider ./node_modules/nuxt/bin/nuxt.js build",
+        "start": "node --openssl-legacy-provider ./node_modules/nuxt/bin/nuxt.js start",
         "generate": "nuxt generate",
         "lint:js": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
         "lint:prettier": "prettier --check .",
